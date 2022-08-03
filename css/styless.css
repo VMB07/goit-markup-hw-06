@@ -168,6 +168,7 @@ img {
 }
 
 .register-form-title {
+  display: flex;
   font-size: 20px;
   line-height: calc(23 / 20);
   text-align: center;
@@ -181,7 +182,8 @@ img {
 }
 
 .register-form-wrap {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin-bottom: 10px;
 }
@@ -204,7 +206,6 @@ img {
 }
 
 .register-form-label {
-  display: block;
   text-align: left;
   margin-bottom: 4px;
   font-weight: 400;
